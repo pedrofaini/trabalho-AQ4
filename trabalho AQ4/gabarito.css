@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+body {
+    font-family: 'Passion One', cursive;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.answer-key-container {
+    background-color: rgb(143, 48, 143);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 8px black;
+    border-radius: 8px;
+}
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 3em;
+    padding: 30px;
+}
+.answer {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #e9f9e9;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.answer h3 {
+    color: #555;
+    font-size: 18px;
+    margin: 0;
+}
+.correct-answer {
+    font-weight: bold;
+    color: #4CAF50;
+    margin-top: 10px;
+}
+.explanation {
+    color: #333;
+    font-size: 14px;
+    margin-top: 5px;
+}
