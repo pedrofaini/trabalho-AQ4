@@ -5,15 +5,19 @@
 
 body {
     font-family: 'Passion One', cursive;
-    background-color: purple;
+    background-color: lightblue;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
 }
+img {
+    height: 70px;
+    width: 150px; 
+}
 .answer-key-container {
-    background-color: rgb(143, 48, 143);
+    background-color: rgb(40, 40, 218);
     padding: 20px;
     max-width: 600px;
     width: 100%;
